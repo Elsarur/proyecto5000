@@ -1,4 +1,4 @@
-import{ modelo1} from "../models/alumno_models.js";
+import{modelo1} from "../models/alumno_models.js";
 
 modelo1.create({
     name:"el choyas"

@@ -1,11 +1,11 @@
 import cors from "cors";
 import express from "express";
 import dotenv from "dotenv";
-import mongoose from "mongoose";
-import {test} from "./backend/controllers/alumno.controller.js";
+import moongose from "moongose";
+import [test] from "../backend/controllers/alumno.controller"
 
-dotenv.config()
-mongoose.connect(process.env.url_db)
+dotenv.config[]
+moongose.connect(process.env.url_db)
 .then(()=>{
     console.log("funciona la base de datos")
     
@@ -16,7 +16,7 @@ mongoose.connect(process.env.url_db)
 
 const app = express();
 app.use(cors());
-app.listen(4000, ()=>{
+app.listen(400, ()=>{
     console.log("se escucha el servidor")
 })
-test()
+test().
